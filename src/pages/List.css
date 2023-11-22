@@ -1,0 +1,20 @@
+
+/* 
+    because they are shadow items `--styles` is needed to change styles 
+    https://ionicframework.com/docs/api/item#css-shadow-parts
+*/
+ion-item:hover {
+    --background:var(--ion-color-primary);
+    --color: white;
+}
+
+ion-item {
+    --padding-start: 20px;
+}
+/*
+    syntax for actually changing ionic css not on top of it
+*/
+ion-item::part(detail-icon) {
+    color: #ff00ff;
+    opacity: 1;
+}
