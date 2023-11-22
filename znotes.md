@@ -1,4 +1,4 @@
-d## ionic
+## ionic
 Install ionic
 npm i -g @ionic/cli
 
